@@ -13,6 +13,7 @@ import spark.template.mustache.MustacheTemplateEngine;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Hello world!
@@ -41,7 +42,7 @@ public class App
 		
 		for(int i=0;i<arry1.length;i++) {
 			if(arry1[i]!=null) {
-				if(i==value) {
+				if(arry1[i]==value) {
 					arry1ContainsValue=true;
 					break;
 				}
